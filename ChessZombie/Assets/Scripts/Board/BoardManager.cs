@@ -1,14 +1,9 @@
 ﻿using System;
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class BoardManager : MonoBehaviour
 {
-
-    private Vector3 _initialTileLocation; 
-    private readonly float _distanceBetweenTiles;
-
     public GameObject TilePrefab;
 
     public BoardManager()
