@@ -6,12 +6,6 @@ public class BoardManager : MonoBehaviour
 {
     public GameObject TilePrefab;
 
-    public BoardManager()
-    {
-        _initialTileLocation = new Vector3(0, 0, 0);
-        _distanceBetweenTiles = 1f;
-    }
-
     void Start()
     {
         InitializeBoard();
